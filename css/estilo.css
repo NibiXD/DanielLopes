@@ -1,0 +1,197 @@
+#topo1 h2 {
+    font-size: 1.7em;
+    margin-bottom: -10px;
+    letter-spacing: 0.15em;
+}
+
+#topo1 h5 {
+    font-weight: bolder;    
+    letter-spacing: 0.03em;
+    font-size: 1.5em;
+}
+
+#topo1 p {
+    font-size: 1.1em;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+}
+
+
+.area-top { 
+    height: 850px; 
+}
+
+.margem-topo1 {
+    margin-top: -27px;
+    font-size: 3.4em;
+}
+
+#topo1 {
+    height: 100%;
+    background: url(../Imagens/TOPO_IMAGE.jpg);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#topo1 .form-group {
+    margin-bottom: 8px;
+}
+
+
+/*-------------Segunda Área--------------*/
+
+
+.separacao {
+    width: 650px;
+    height: 130px;
+    border-radius: 15px;
+    margin-top: -55px;
+    /*position: absolute;*/
+    background-color: #202020;
+}
+
+#part2 img {
+    margin-top: 15px;
+}
+
+#part2 {
+    background: url(../Imagens/ESSA\ É\ PARA\ VOCÊ.jpg);
+}
+
+#part2 {
+    color: white;
+}
+
+#part2 h2 {
+    margin: 100px 0;
+}
+
+#part2 p {
+    font-weight: bolder;
+}
+
+.area-top2 {
+    height: 984px; 
+    border: solid 1px red;
+}
+
+.caixa-main {
+    margin-bottom: 200px;
+}
+
+.caixa2 {
+    /*border: solid 1px red;*/
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    background: linear-gradient(rgb(19, 19, 19), rgba(0, 0, 0, 0));
+}
+
+#part2 h6 {
+    margin-top: 10px;
+    color: #ffe156;
+}
+
+#part2 .paragrafo-caixa {
+    font-weight: 600;
+    margin-top: -9px;
+    margin-bottom: 40px;
+}
+
+/*-------------Terceira Área--------------*/
+
+#part3 {
+    background: #111111;
+    color: white;
+}
+
+#part3 img {
+    margin-bottom: 35px;
+}
+
+#part3 input {
+    margin-bottom: 45px;
+}
+
+.caixa-part3 {
+    margin: 50px 0px;
+}
+
+/*-------------Quarta Área--------------*/
+
+#part4 {
+    background: url(../Imagens/SOBRE\ O\ PROFESSOR.jpg);
+}
+
+#part4 img {
+    margin-top: -38px;
+}
+
+#part4 h2 {
+    color: #ffe156;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#part4 p {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*-------------Quarta Área--------------*/
+
+#rodape {
+    background: #111111;
+    color: white;
+}
+
+#rodape p {
+    margin: 15px 0px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #part2 p {
+        font-size: 0.8em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #part2 p {
+        font-size: 0.8em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #part2 p {
+        font-size: 0.8em;
+    }
+
+    #part4 h2 {
+        color: #ffe156;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #part4 p {
+        font-size: 0.7em;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #part4 h2 {
+        color: #ffe156;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
